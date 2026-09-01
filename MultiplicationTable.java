@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Scanner;
 
 class MultiplicationTable {
@@ -15,3 +16,22 @@ class MultiplicationTable {
         sc.close();
     }
 }
+=======
+import java.util.Scanner;
+
+class MultiplicationTable {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num = sc.nextInt();
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(num + " x " + i + " = " + (num * i));
+        }
+
+        sc.close();
+    }
+}
+>>>>>>> 054a6c2500796ddde17e83bc7cf1f2ad832cb79a

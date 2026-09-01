@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Scanner;
 
 class ReverseNumber {
@@ -21,3 +22,28 @@ class ReverseNumber {
         sc.close();
     }
 }
+=======
+import java.util.Scanner;
+
+class ReverseNumber {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num = sc.nextInt();
+
+        int reverse = 0;
+
+        while (num != 0) {
+            int digit = num % 10;
+            reverse = reverse * 10 + digit;
+            num = num / 10;
+        }
+
+        System.out.println("Reverse = " + reverse);
+
+        sc.close();
+    }
+}
+>>>>>>> 054a6c2500796ddde17e83bc7cf1f2ad832cb79a
