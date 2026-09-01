@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import java.util.Scanner;
 
 class ReverseString {
@@ -20,7 +19,6 @@ class ReverseString {
         sc.close();
     }
 }
-=======
 import java.util.Scanner;
 
 class ReverseString {
@@ -42,4 +40,3 @@ class ReverseString {
         sc.close();
     }
 }
->>>>>>> 054a6c2500796ddde17e83bc7cf1f2ad832cb79a

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import java.util.Scanner;
 
 class EvenOdd {
@@ -18,7 +17,6 @@ class EvenOdd {
         sc.close();
     }
 }
-=======
 import java.util.Scanner;
 
 class EvenOdd {
@@ -38,4 +36,3 @@ class EvenOdd {
         sc.close();
     }
 }
->>>>>>> 054a6c2500796ddde17e83bc7cf1f2ad832cb79a
